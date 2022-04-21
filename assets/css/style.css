@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*====================
+Genarel Styling
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+
+font-family: 'Raleway', sans-serif;
+Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7
+#745cf9, #5234f9
+
+*/
+
+
+/* ====================================
+              Header
+===================================*/
+
+header {
+    position: sticky;
+    top: 0;
+    height: 76px;
+}
+
+header nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 4% 1vh 2%;
+    font-family: 'Raleway', sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul a {
+    color: #333;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+header nav ul a:hover {
+    color: #337ab7;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #666;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+
+/* ================================
+                  Main
+===================================*/
+
+main {
+    background-image: url("https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 40vh 0;
+}
+
+main section {
+    text-align: center;
+    color: white;
+}
+
+main section h2 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+main section p {
+    margin: 3rem 0;
+}
+
+.btn a {
+    display: inline-block;
+    width: 180px;
+    font-size: 12px;
+}
+
+.btn a:nth-of-type(1) {
+    text-decoration: none;
+    border: 1px solid #745cf9;
+    color: white;
+    margin: 3px;
+    padding: 1rem 2rem;
+    background-color: #745cf9;
+}
+
+.btn a:nth-of-type(2) {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    margin: 3px;
+    padding: 1rem 2rem;
+}
+
+.btn a:hover {
+    background-color: #5234f9;
+    border: 1px solid #5234f9;
+}
